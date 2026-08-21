@@ -55,19 +55,7 @@ The practical exercises were performed using a local computer and a controlled l
 | Windows CMD | Network configuration and IP information |
 ---
 
-# 4. Ethical and Legal Scope
-
-All activities in this project were performed for educational and cybersecurity training purposes.
-
-The reconnaissance and scanning activities were limited to authorized targets and the student's own/local laboratory environment.
-
-The purpose of the exercises was to understand how information can be collected and how network exposure can be identified from a defensive cybersecurity perspective.
-
-No unauthorized access, exploitation, credential attacks, or destructive actions were performed.
-
----
-
-# 5. Module 3 – Footprinting with Maltego
+# 4. Footprinting with Maltego
 
 ## 5.1 Overview
 
