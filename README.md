@@ -8,10 +8,6 @@
 -  Footprinting with Maltego
 -  Network Scanning with Zenmap
 
-**Trainee:** Dugle  
-**Training Provider:** Networkwalks  
-**Environment:** Windows + Kali Linux / Local Lab Environment
-
 ---
 
 # 1. Introduction
