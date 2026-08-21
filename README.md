@@ -75,7 +75,7 @@ Maltego was downloaded and installed successfully on the Windows environment.
 
 ### Evidence
 
-![Maltego Installation](Module-3-Maltego/screenshots/01-maltego-installed.png)
+![Maltego Installation](maltego/1.maltego installed and launched.PNG)
 
 **Observation:**  
 The Maltego application was successfully installed and launched, providing the graphical environment required for the reconnaissance exercise.
