@@ -5,8 +5,8 @@
 **Internship:** Cybersecurity Internship  
 **Week:** 2  
 **Project Modules:**  
-- W2-PM3 – Footprinting with Maltego
-- W2-PM5 – Network Scanning with Zenmap
+-  – Footprinting with Maltego
+-  – Network Scanning with Zenmap
 
 **Trainee:** Dugle  
 **Training Provider:** Networkwalks  
