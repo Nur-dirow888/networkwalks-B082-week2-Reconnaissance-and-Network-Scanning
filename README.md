@@ -1,6 +1,6 @@
 # Networkwalks Cybersecurity Internship – Week 2 Project
 
-## Phase 1 & Phase 2 – Reconnaissance and Network Scanning
+## Reconnaissance and Network Scanning
 
 **Internship:** Cybersecurity Internship  
 **Week:** 2  
