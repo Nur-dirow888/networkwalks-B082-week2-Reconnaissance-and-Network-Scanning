@@ -7,7 +7,6 @@
 **Project Modules:**  
 -  Footprinting with Maltego
 -  Network Scanning with Zenmap
-
 ---
 
 # 1. Introduction
@@ -20,7 +19,6 @@ As part of Week 2 of my Cybersecurity Internship with Networkwalks, I completed 
 The purpose of these exercises was to understand how cybersecurity professionals collect information about a target and identify systems that are visible within a network.
 
 The exercises were performed for educational and authorized lab purposes. No unauthorized access, exploitation, or destructive activity was performed.
-
 ---
 
 # 2. Objectives
@@ -38,7 +36,6 @@ The main objectives of this project were to:
 - Identify MAC addresses where available.
 - Generate and save a network topology.
 - Analyze the security implications of reconnaissance and network discovery.
-
 ---
 
 # 3. Lab Environment
@@ -55,8 +52,6 @@ The practical exercises were performed using a local computer and a controlled l
 | Zenmap | Graphical network scanning |
 | Nmap | Scanning engine used by Zenmap |
 | Windows CMD | Network configuration and IP information |
-| `ipconfig` | Local IP, subnet and MAC information |
-
 ---
 
 # 4. Ethical and Legal Scope
