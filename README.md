@@ -19,6 +19,7 @@ As part of Week 2 of my Cybersecurity Internship with Networkwalks, I completed 
 The purpose of these exercises was to understand how cybersecurity professionals collect information about a target and identify systems that are visible within a network.
 
 The exercises were performed for educational and authorized lab purposes. No unauthorized access, exploitation, or destructive activity was performed.
+
 ---
 
 # 2. Objectives
