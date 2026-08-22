@@ -71,31 +71,22 @@ The objective was to understand how publicly available information can contribut
 
 ## 5.2 Maltego Installation
 
-Maltego was downloaded and installed successfully on the Windows environment.
+Maltego was downloaded, installed, and launched successfully on the Windows environment following these steps:
+  1.  Open the website https://maltego.com → Resources tab → download Maltego → OS = Windows, Extention = .exe + Java (x64)
+  2.  then Download Maltego Graph
+  3.  After download complete, install the Maltego in standard way and launch.
+  4.  Complete the free Maltego account creation.
 
 ### Evidence
 
 ![Maltego Installation](maltego/01.maltego-installed-and-launched.PNG)
 
 **Observation:**  
-The Maltego application was successfully installed and launched, providing the graphical environment required for the reconnaissance exercise.
+The Maltego application was successfully installed, launched, andprepared for running reconnaissance transforms
 
 ---
 
-## 5.3 Maltego Configuration
-
-After installation, Maltego was launched and the initial configuration and authentication process was completed.
-
-### Evidence
-
-![Maltego Configuration](Module-3-Maltego/screenshots/02-maltego-configured.png)
-
-**Observation:**  
-Maltego was successfully configured and prepared for running reconnaissance transforms.
-
----
-
-## 5.4 Creating the Domain Entity
+## 5.3 Creating the Domain Entity
 
 A Domain entity was created inside the Maltego workspace.
 
