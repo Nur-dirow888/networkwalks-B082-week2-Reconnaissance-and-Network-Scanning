@@ -176,9 +176,109 @@ In this exercise, Zenmap was used to identify live hosts within my authorized lo
 
 # 6.2 Identifying the Local IP Address and Subnet
 
-The Windows `ipconfig` command was used to identify the local network configuration.
+The Windows `ipconfig` command was used to identify the local network configuration as shown bellow:
+![Maltego Final Results](nenmap/01.local-ip-and-subnet.PNG)
 
-### Command Used
+---
 
-```text
-ipconfig
+# 6.3 Configuring the Zenmap Ping Scan
+
+After identifying the local subnet, Zenmap was configured to perform a Ping Scan against the authorized local network.
+![Maltego Final Results](nenmap/02.zenmap-ping-scan.PNG)
+Scan Configuration
+Parameter	Value
+Scan Type	Ping Scan
+Target	[YOUR LOCAL SUBNET]
+Purpose	Live Host Discovery
+Evidence
+
+---
+
+# 6.4 Live Host Discovery
+
+The Ping Scan was executed to identify active hosts within the authorized local network.
+
+Evidence
+
+Discovered Hosts
+No.	IP Address	Status
+1	[IP ADDRESS]	Up
+2	[IP ADDRESS]	Up
+3	[IP ADDRESS]	Up
+4	[IP ADDRESS]	Up
+5	[IP ADDRESS]	Up
+Total Live Hosts
+
+[NUMBER OF LIVE HOSTS]
+
+6.5 IP Address Information
+
+The scan results were reviewed to identify the IP addresses of the discovered live hosts.
+
+No.	IP Address	Status
+1	[IP ADDRESS]	Up
+2	[IP ADDRESS]	Up
+3	[IP ADDRESS]	Up
+4	[IP ADDRESS]	Up
+5	[IP ADDRESS]	Up
+6.6 MAC Address Information
+
+MAC address information was reviewed for the discovered hosts where available.
+
+Evidence
+
+MAC Address Results
+No.	IP Address	MAC Address
+1	[IP ADDRESS]	[MAC ADDRESS]
+2	[IP ADDRESS]	[MAC ADDRESS]
+3	[IP ADDRESS]	[MAC ADDRESS]
+4	[IP ADDRESS]	[MAC ADDRESS]
+5	[IP ADDRESS]	[MAC ADDRESS]
+6.7 Network Topology
+
+After completing the network discovery scan, the network topology was generated and saved as a PDF.
+
+Topology
+
+View Zenmap Network Topology
+
+Topology File
+zenmap/
+└── 06-zenmap-topology.pdf
+6.8 Zenmap Scan Results
+
+The Zenmap scan successfully identified active hosts within the authorized local network.
+
+Summary
+Item	Result
+Scanned Network	[YOUR LOCAL SUBNET]
+Scan Type	Ping Scan
+Live Hosts	[NUMBER]
+IP Addresses Identified	[NUMBER]
+MAC Addresses Identified	[NUMBER]
+Topology Generated	Yes
+6.9 Analysis
+
+The network scan demonstrated how Zenmap can be used to discover active systems within an authorized network.
+
+The scan identified live hosts and provided IP address information, while MAC address information was available for hosts where it could be determined.
+
+The topology generated from the scan provided a visual representation of the discovered network environment.
+
+6.10 Security Relevance
+
+Network discovery is an important part of cybersecurity because it helps organizations understand which systems are active and visible within their networks.
+
+The information obtained during the scan can support:
+
+Network asset inventory
+Identification of unknown devices
+Detection of unauthorized systems
+Network segmentation reviews
+Security monitoring
+Network administration
+6.11 Conclusion
+
+The Zenmap practical exercise was successfully completed. I installed Zenmap, identified the local IP address and subnet, configured and performed a Ping Scan, discovered live hosts, reviewed IP and MAC address information, and generated a network topology.
+
+This exercise provided practical experience in network discovery and demonstrated how Zenmap can be used as a cybersecurity reconnaissance and network administration tool within an authorized environment.
