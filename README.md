@@ -240,7 +240,7 @@ After completing the network discovery scan, the network topology was generated 
 
 Topology
 
-![Maltego Final Results](nenmap/02.zenmap-configuration-pingscan.PNG)
+![Maltego Final Results](NMAP TOPOLOGY.pdf)
 
 Topology File
 zenmap/
