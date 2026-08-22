@@ -138,8 +138,8 @@ The final graph and reconnaissance results were captured after the transforms co
 The Maltego investigation produced the following results:
 
 - **Target domain:** `networkwalks.com`
-- **Email-related results:** `[ENTER YOUR ACTUAL RESULT/COUNT HERE]`
-- **Other discovered entities:** `[ENTER IF APPLICABLE]`
+- **Email-related results:** `info@networkwalks.com`
+- **Other discovered entities:** `Mail Server:` mail.networkwalks.com
 
 > Note: The results obtained from reconnaissance tools may change over time because public information sources and their underlying data can change.
 
