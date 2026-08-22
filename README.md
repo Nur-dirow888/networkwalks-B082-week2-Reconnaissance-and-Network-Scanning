@@ -118,7 +118,7 @@ Email-related transforms were selected and executed against the configured domai
 
 ### Evidence
 
-![Transform Execution](maltego/4.transform excusion.png)
+![Transform Execution](maltego/4.transform-excusion.png)
 
 **Observation:**  
 The selected transforms were executed successfully and Maltego generated relationship data associated with the target domain.
@@ -131,7 +131,7 @@ The final graph and reconnaissance results were captured after the transforms co
 
 ### Evidence
 
-![Maltego Final Results](Module-3-Maltego/screenshots/06-final-results.png)
+![Maltego Final Results](maltego/5.result.PNG)
 
 ### Results Summary
 
