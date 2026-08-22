@@ -199,7 +199,8 @@ Evidence
 The Ping Scan was executed to identify active hosts within the authorized local network.
 
 Evidence
-![Maltego Final Results](nenmap/03.zenmap-live-hosts.PNG)
+![Zenmap live hosts](nenmap/03.zenmap-live-hosts.PNG)
+
 Discovered Hosts
 No.	IP Address	Status
 1	[IP ADDRESS]	Up
