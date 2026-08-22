@@ -105,7 +105,7 @@ The Domain entity was configured with the authorized target: `networkwalks.com`
 
 ### Evidence
 
-![Networkwalks Target](Module-3-Maltego/screenshots/04-networkwalks-target.png)
+![Networkwalks Target](maltego/03.network-walks-target.PNG)
 
 **Observation:**  
 The target domain was successfully configured in Maltego before executing the reconnaissance transforms.
