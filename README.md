@@ -82,7 +82,7 @@ Maltego was downloaded, installed, and launched successfully on the Windows envi
 ![Maltego Installation](maltego/01.maltego-installed-and-launched.PNG)
 
 **Observation:**  
-The Maltego application was successfully installed, launched, andprepared for running reconnaissance transforms
+The Maltego application was successfully installed, launched, and prepared for running reconnaissance transforms
 
 ---
 
