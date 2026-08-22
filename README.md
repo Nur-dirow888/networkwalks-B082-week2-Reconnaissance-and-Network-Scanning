@@ -88,11 +88,11 @@ The Maltego application was successfully installed, launched, andprepared for ru
 
 ## 5.3 Creating the Domain Entity
 
-A Domain entity was created inside the Maltego workspace.
+A Domain entity was created inside the Maltego workspace by Searching for “Domain” & draging to the main area.
 
 ### Evidence
 
-![Domain Entity](Module-3-Maltego/screenshots/03-domain-entity.png)
+![Domain Entity](Maltego/02.domain-entity.png)
 
 **Observation:**  
 The Domain entity was added to the Maltego workspace and prepared for target configuration.
