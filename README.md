@@ -241,8 +241,7 @@ After completing the network discovery scan, the network topology was generated 
 
 Topology
 
-![Maltego Final Results](NMAP TOPOLOGY-1.jpg)
-
+![Maltego Final Results](NMAP-TOPOLOGY-1.jpg)
 Topology File
 zenmap/
 └── 06-zenmap-topology.pdf
