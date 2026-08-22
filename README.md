@@ -184,7 +184,7 @@ The Windows `ipconfig` command was used to identify the local network configurat
 # 6.3 Configuring the Zenmap Ping Scan
 
 After identifying the local subnet, Zenmap was configured to perform a Ping Scan against the authorized local network.
-![Maltego Final Results](nenmap/02.zenmap-ping-scan.PNG)
+![Maltego Final Results](nenmap/02.zenmap-configuration-pingscan.PNG)
 Scan Configuration
 Parameter	Value
 Scan Type	Ping Scan
@@ -199,7 +199,7 @@ Evidence
 The Ping Scan was executed to identify active hosts within the authorized local network.
 
 Evidence
-
+![Maltego Final Results](nenmap/03.zenmap-live-hosts.PNG)
 Discovered Hosts
 No.	IP Address	Status
 1	[IP ADDRESS]	Up
@@ -240,7 +240,7 @@ After completing the network discovery scan, the network topology was generated 
 
 Topology
 
-View Zenmap Network Topology
+![Maltego Final Results](nenmap/02.zenmap-configuration-pingscan.PNG)
 
 Topology File
 zenmap/
