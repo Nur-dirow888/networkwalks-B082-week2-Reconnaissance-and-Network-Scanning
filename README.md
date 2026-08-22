@@ -101,9 +101,7 @@ The Domain entity was added to the Maltego workspace and prepared for target con
 
 ## 5.5 Configuring the Target Domain
 
-The Domain entity was configured with the authorized target:
-
-`networkwalks.com`
+The Domain entity was configured with the authorized target: `networkwalks.com`
 
 ### Evidence
 
