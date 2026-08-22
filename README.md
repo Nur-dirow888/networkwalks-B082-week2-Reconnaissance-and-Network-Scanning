@@ -92,7 +92,7 @@ A Domain entity was created inside the Maltego workspace by Searching for “Dom
 
 ### Evidence
 
-![Domain Entity](maltego/02.domain-entity.PNG)
+![Domain Entity](maltego/02.Domain-Entity.png)
 
 **Observation:**  
 The Domain entity was added to the Maltego workspace and prepared for target configuration.
