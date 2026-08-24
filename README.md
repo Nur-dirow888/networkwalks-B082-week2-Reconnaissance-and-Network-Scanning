@@ -27,7 +27,7 @@ In most countries, **unauthorized access to computer systems or networks is a cr
 
 ---
 
-# 1. Introduction
+# 2. Introduction
 
 As part of Week 2 of my Cybersecurity Internship with Networkwalks, I completed practical exercises focused on two important areas of cybersecurity reconnaissance:
 
@@ -42,7 +42,7 @@ All tasks were run on a windows PC with maltego (footprinting) and Zenmap (scann
 
 ---
 
-# 2. Lab Environment (Tools Used)
+# 3. Lab Environment (Tools Used)
 
 ## Hardware / Operating Environment
 
@@ -56,9 +56,9 @@ The practical exercises were performed using a local computer with the following
 | Windows CMD | Network configuration and IP information |
 ---
 
-# 3. Footprinting with Maltego
+# 4. Footprinting with Maltego
 
-## 3.1 Overview
+## 4.1 Overview
 
 Maltego is a graphical reconnaissance and investigation platform that can be used to discover relationships between domains, infrastructure, organizations, people, email addresses, and other publicly available information.
 In this project, Maltego was used to perform domain-based footprinting against the authorized training target: `networkwalks.com`
@@ -66,7 +66,7 @@ The objective was to understand how publicly available information can contribut
 
 ---
 
-## 3.2 Maltego Installation
+## 4.2 Maltego Installation
 
 Maltego was downloaded, installed, and launched successfully on the Windows environment following these steps:
   1.  Open the website https://maltego.com → Resources tab → download Maltego → OS = Windows, Extention = .exe + Java (x64)
@@ -83,7 +83,7 @@ The Maltego application was successfully installed, launched, and prepared for r
 
 ---
 
-## 3.3 Creating the Domain Entity
+## 4.3 Creating the Domain Entity
 
 A Domain entity was created inside the Maltego workspace by Searching for “Domain” & draging to the main area.
 
@@ -96,7 +96,7 @@ The Domain entity was added to the Maltego workspace and prepared for target con
 
 ---
 
-## 3.4 Configuring the Target Domain
+## 4.4 Configuring the Target Domain
 
 The Domain entity was configured with the authorized target: `networkwalks.com`
 
@@ -109,7 +109,7 @@ The target domain was successfully configured in Maltego before executing the re
 
 ---
 
-## 3.5 Running Email-Related Transforms
+## 4.5 Running Email-Related Transforms
 
 Email-related transforms were selected and executed against the configured domain.
 
@@ -122,7 +122,7 @@ The selected transforms were executed successfully and Maltego generated relatio
 
 ---
 
-## 3.6 Maltego Results
+## 4.6 Maltego Results
 
 The final graph and reconnaissance results were captured after the transforms completed.
 
@@ -142,7 +142,7 @@ The Maltego investigation produced the following results:
 
 ---
 
-## 3.7 Analysis of Maltego Results
+## 4.7 Analysis of Maltego Results
 
 The exercise demonstrated how a domain can be used as a starting point for discovering relationships and publicly available information.
 
@@ -159,9 +159,9 @@ The important lesson is that information does not need to be obtained through un
 
 ---
 
-# 4. Network Scanning with Zenmap
+# 5. Network Scanning with Zenmap
 
-## 4.1 Overview
+## 5.1 Overview
 
 Zenmap is the official graphical user interface for Nmap.
 
@@ -171,14 +171,14 @@ In this exercise, Zenmap was used to identify live hosts within my authorized lo
 
 ---
 
-# 4.2 Identifying the Local IP Address and Subnet
+# 5.2 Identifying the Local IP Address and Subnet
 
 The Windows `ipconfig` command was used to identify the local network configuration as shown bellow:
 ![Maltego Final Results](nenmap/01.local-ip-and-subnet.PNG)
 
 ---
 
-# 4.3 Configuring the Zenmap Ping Scan
+# 5.3 Configuring the Zenmap Ping Scan
 
 After identifying the local subnet, Zenmap was configured to perform a Ping Scan against the authorized local network.
 Scan Configuration:
@@ -194,7 +194,7 @@ Evidence
 
 ---
 
-# 4.4 Live Host and IP Addresess Discovery
+# 5.4 Live Host and IP Addresess Discovery
 
 The Ping Scan was executed to identify active hosts within my local network.
 
@@ -215,7 +215,7 @@ Total Live Hosts: **5 hosts**
 
 ---
 
-# 4.5 Network Topology
+# 5.5 Network Topology
 
 After completing the network discovery scan, the network topology was generated and saved as shown below.
 
@@ -224,7 +224,7 @@ Topology
 ![Maltego Final Results](NMAP-TOPOLOGY-1.jpg)
 
 
-# 4.6 Zenmap Scan Results
+# 5.6 Zenmap Scan Results
 
 The Zenmap scan successfully identified active hosts within the authorized local network.
 
@@ -238,13 +238,13 @@ Summary
 |MAC Addresses Identified| 4|
 |Topology Generated|	Yes|
 
-# 4.7 Analysis
+# 5.7 Analysis
 
 The network scan demonstrated how Zenmap can be used to discover active systems within an authorized network.
 The scan identified live hosts and provided IP address information, while MAC address information was available for hosts where it could be determined.
 The topology generated from the scan provided a visual representation of the discovered network environment.
 
-# 4.8 Security Relevance
+# 5.8 Security Relevance
 
 Network discovery is an important part of cybersecurity because it helps organizations understand which systems are active and visible within their networks.
 The information obtained during the scan can support:
@@ -255,7 +255,7 @@ The information obtained during the scan can support:
     Security monitoring
     Network administration
 
-# 4.9 Conclusion
+# 5.9 Conclusion
 
 The Zenmap practical exercise was successfully completed. I installed Zenmap, identified the local IP address and subnet, configured and performed a Ping Scan, discovered live hosts, reviewed IP and MAC address information, and generated a network topology.
 
