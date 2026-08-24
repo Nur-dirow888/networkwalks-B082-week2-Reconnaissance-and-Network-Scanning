@@ -34,34 +34,17 @@ As part of Week 2 of my Cybersecurity Internship with Networkwalks, I completed 
 
 The purpose of these exercises was to understand how cybersecurity professionals collect information about a target and identify systems that are visible within a network.
 
-The exercises were performed for educational and authorized lab purposes. No unauthorized access, exploitation, or destructive activity was performed.
+This report covers footprinting the **networkwalks.com** domain using maltego and scanning my own local network with Zenmap. One module covers the footprinting phase and the other covers the scanning phase, so together they show how an attacker moves from gathering public information to mapping live hosts on a network. It is the Week 2 part of my ongoing internship program at Networkwalks.
+
+All tasks were run on a windows PC with maltego (footprinting) and Zenmap (scanning). Every step below includes the exact command used, the result I observed, a screenshot as evidence, and a short note on why the finding matters from an attacker's point of view.
 
 ---
 
-# 2. Objectives
-
-The main objectives of this project were to:
-
-- Understand the concept of reconnaissance and footprinting.
-- Install and configure Maltego.
-- Perform domain-based reconnaissance using Maltego.
-- Identify information associated with a target domain.
-- Install and configure Zenmap.
-- Identify the local IP address and subnet.
-- Discover live hosts within the authorized local network.
-- Identify IP addresses of discovered hosts.
-- Identify MAC addresses where available.
-- Generate and save a network topology.
-- Analyze the security implications of reconnaissance and network discovery.
----
-
-# 3. Lab Environment
+# 2. Lab Environment (Tools Used)
 
 ## Hardware / Operating Environment
 
-The practical exercises were performed using a local computer and a controlled laboratory environment.
-
-### Tools Used
+The practical exercises were performed using a local computer with the following tools:
 
 | Tool | Purpose |
 |---|---|
