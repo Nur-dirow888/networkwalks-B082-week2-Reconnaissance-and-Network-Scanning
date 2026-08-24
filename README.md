@@ -185,10 +185,11 @@ Scan Configuration:
 |Parameter	|Value |
 |---|---|
 |Scan Type|	Ping Scan |
-|Target| [YOUR LOCAL SUBNET] |
+|Target| 10.10.6.0/24 |
 |Purpose|	Live Host Discovery |
 
 Evidence
+
 ![Maltego Final Results](nenmap/02.zenmap-configuration-pingscan.PNG)
 
 ---
@@ -198,15 +199,18 @@ Evidence
 The Ping Scan was executed to identify active hosts within the authorized local network.
 
 Evidence
+
 ![Zenmap live hosts](nenmap/03.zenmap-live-hosts.PNG)
 
 Discovered Hosts
-No.	IP Address	Status
-1	[IP ADDRESS]	Up
-2	[IP ADDRESS]	Up
-3	[IP ADDRESS]	Up
-4	[IP ADDRESS]	Up
-5	[IP ADDRESS]	Up
+|No.	|IP Address	|Status|
+|---|---|---|
+|1	|10.10.6.1|	|Up|
+|2	|10.10.6.3|	Up|
+|3	|10.10.6.35|	Up|
+|4	|10.10.6.41|	Up|
+|5	|10.10.6.46|	Up|
+
 Total Live Hosts
 
 [NUMBER OF LIVE HOSTS]
