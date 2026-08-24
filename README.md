@@ -6,7 +6,7 @@ W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
 
 **Program/Batch:** B082-Networkwalks
 
-**Date:** 24August 2026
+**Date:** 24 August 2026
 
 **Modules completed:**  
 -  Footprinting with Maltego
