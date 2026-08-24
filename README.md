@@ -56,21 +56,17 @@ The practical exercises were performed using a local computer with the following
 | Windows CMD | Network configuration and IP information |
 ---
 
-# 4. Footprinting with Maltego
+# 3. Footprinting with Maltego
 
-## 4.1 Overview
+## 3.1 Overview
 
 Maltego is a graphical reconnaissance and investigation platform that can be used to discover relationships between domains, infrastructure, organizations, people, email addresses, and other publicly available information.
-
-In this project, Maltego was used to perform domain-based footprinting against the authorized training target:
-
-`networkwalks.com`
-
+In this project, Maltego was used to perform domain-based footprinting against the authorized training target: `networkwalks.com`
 The objective was to understand how publicly available information can contribute to an organization's reconnaissance profile.
 
 ---
 
-## 4.2 Maltego Installation
+## 3.2 Maltego Installation
 
 Maltego was downloaded, installed, and launched successfully on the Windows environment following these steps:
   1.  Open the website https://maltego.com → Resources tab → download Maltego → OS = Windows, Extention = .exe + Java (x64)
@@ -87,7 +83,7 @@ The Maltego application was successfully installed, launched, and prepared for r
 
 ---
 
-## 4.3 Creating the Domain Entity
+## 3.3 Creating the Domain Entity
 
 A Domain entity was created inside the Maltego workspace by Searching for “Domain” & draging to the main area.
 
@@ -100,7 +96,7 @@ The Domain entity was added to the Maltego workspace and prepared for target con
 
 ---
 
-## 4.4 Configuring the Target Domain
+## 3.4 Configuring the Target Domain
 
 The Domain entity was configured with the authorized target: `networkwalks.com`
 
@@ -113,7 +109,7 @@ The target domain was successfully configured in Maltego before executing the re
 
 ---
 
-## 4.5 Running Email-Related Transforms
+## 3.5 Running Email-Related Transforms
 
 Email-related transforms were selected and executed against the configured domain.
 
@@ -126,7 +122,7 @@ The selected transforms were executed successfully and Maltego generated relatio
 
 ---
 
-## 4.6 Maltego Results
+## 3.6 Maltego Results
 
 The final graph and reconnaissance results were captured after the transforms completed.
 
@@ -146,7 +142,7 @@ The Maltego investigation produced the following results:
 
 ---
 
-## 4.7 Analysis of Maltego Results
+## 3.7 Analysis of Maltego Results
 
 The exercise demonstrated how a domain can be used as a starting point for discovering relationships and publicly available information.
 
@@ -163,9 +159,9 @@ The important lesson is that information does not need to be obtained through un
 
 ---
 
-# 5. Network Scanning with Zenmap
+# 4. Network Scanning with Zenmap
 
-## 5.1 Overview
+## 4.1 Overview
 
 Zenmap is the official graphical user interface for Nmap.
 
@@ -175,27 +171,28 @@ In this exercise, Zenmap was used to identify live hosts within my authorized lo
 
 ---
 
-# 5.2 Identifying the Local IP Address and Subnet
+# 4.2 Identifying the Local IP Address and Subnet
 
 The Windows `ipconfig` command was used to identify the local network configuration as shown bellow:
 ![Maltego Final Results](nenmap/01.local-ip-and-subnet.PNG)
 
 ---
 
-# 5.3 Configuring the Zenmap Ping Scan
+# 4.3 Configuring the Zenmap Ping Scan
 
 After identifying the local subnet, Zenmap was configured to perform a Ping Scan against the authorized local network.
-![Maltego Final Results](nenmap/02.zenmap-configuration-pingscan.PNG)
-Scan Configuration
-Parameter	Value
-Scan Type	Ping Scan
-Target	[YOUR LOCAL SUBNET]
-Purpose	Live Host Discovery
+Scan Configuration:
+|Parameter	|Value |
+|---|---|
+|Scan Type|	Ping Scan |
+|Target| [YOUR LOCAL SUBNET] |
+|Purpose|	Live Host Discovery |
 Evidence
+![Maltego Final Results](nenmap/02.zenmap-configuration-pingscan.PNG)
 
 ---
 
-# 5.4 Live Host Discovery
+# 5.3 Live Host Discovery
 
 The Ping Scan was executed to identify active hosts within the authorized local network.
 
