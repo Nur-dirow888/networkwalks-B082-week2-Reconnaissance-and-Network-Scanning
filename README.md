@@ -212,6 +212,7 @@ Discovered Hosts
 |5	|10.10.6.46|	Up|
 
 Total Live Hosts: **5 hosts**
+
 ---
 
 # 4.5 Network Topology
