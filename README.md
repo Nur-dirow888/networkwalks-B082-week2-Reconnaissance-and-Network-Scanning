@@ -13,6 +13,7 @@ W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
 -  Network Scanning with Zenmap
   
 **Client/Target:** Networkwalks and my own local LAN network
+
 ---
 
 # 1. Liability Disclaimer ⚠️
