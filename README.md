@@ -23,6 +23,7 @@ Do not use any information or techniques presented here to violate the law or ga
 The instructor, authors, and Networkwalks are not responsible for any misuse of the information provided. **Every action you take is your own responsibility.**
 Misuse of cybersecurity knowledge may result in **criminal charges, significant fines, loss of employment, and a permanent criminal record**.
 In most countries, **unauthorized access to computer systems or networks is a criminal offense, even when no damage is caused**.
+
 ---
 
 # 1. Introduction
