@@ -205,7 +205,7 @@ Evidence
 Discovered Hosts
 |No.	|IP Address	|Status|
 |---|---|---|
-|1	|10.10.6.1|	|Up|
+|1	|10.10.6.1|	Up|
 |2	|10.10.6.3|	Up|
 |3	|10.10.6.35|	Up|
 |4	|10.10.6.41|	Up|
