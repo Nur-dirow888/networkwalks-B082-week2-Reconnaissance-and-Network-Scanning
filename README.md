@@ -8,7 +8,7 @@ W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
 
 **Date:** 24August 2026
 
-**Project Modules:**  
+**Modules completed:**  
 -  Footprinting with Maltego
 -  Network Scanning with Zenmap
   
