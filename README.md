@@ -194,7 +194,7 @@ Evidence
 
 ---
 
-# 4.4 Live Host and IP Addresess Information Discovery
+# 4.4 Live Host and IP Addresess Discovery
 
 The Ping Scan was executed to identify active hosts within my local network.
 
@@ -214,66 +214,47 @@ Discovered Hosts
 Total Live Hosts: **5 hosts**
 ---
 
-# 4.5 MAC Address Information
+# 4.5 Network Topology
 
-MAC address information was reviewed for the discovered hosts where available.
-
-Evidence
-
-MAC Address Results
-No.	IP Address	MAC Address
-1	[IP ADDRESS]	[MAC ADDRESS]
-2	[IP ADDRESS]	[MAC ADDRESS]
-3	[IP ADDRESS]	[MAC ADDRESS]
-4	[IP ADDRESS]	[MAC ADDRESS]
-5	[IP ADDRESS]	[MAC ADDRESS]
-
-# 5.7 Network Topology
-
-After completing the network discovery scan, the network topology was generated and saved as a PDF.
+After completing the network discovery scan, the network topology was generated and saved as shown below.
 
 Topology
 
 ![Maltego Final Results](NMAP-TOPOLOGY-1.jpg)
-Topology File
-zenmap/
-└── 06-zenmap-topology.pdf
 
-# 5.8 Zenmap Scan Results
+
+# 4.6 Zenmap Scan Results
 
 The Zenmap scan successfully identified active hosts within the authorized local network.
 
 Summary
-Item	Result
-Scanned Network	[YOUR LOCAL SUBNET]
-Scan Type	Ping Scan
-Live Hosts	[NUMBER]
-IP Addresses Identified	[NUMBER]
-MAC Addresses Identified	[NUMBER]
-Topology Generated	Yes
+|Item	|Result|
+|---|---|
+|Scanned Network| 10.10.6.0/24|
+|Scan Type|	Ping Scan|
+|Live Hosts|	5|
+|IP Addresses Identified|	5|
+|MAC Addresses Identified| 4|
+|Topology Generated|	Yes|
 
-# 5.9 Analysis
+# 4.7 Analysis
 
 The network scan demonstrated how Zenmap can be used to discover active systems within an authorized network.
-
 The scan identified live hosts and provided IP address information, while MAC address information was available for hosts where it could be determined.
-
 The topology generated from the scan provided a visual representation of the discovered network environment.
 
-# 5.10 Security Relevance
+# 4.8 Security Relevance
 
 Network discovery is an important part of cybersecurity because it helps organizations understand which systems are active and visible within their networks.
-
 The information obtained during the scan can support:
+    Network asset inventory
+    Identification of unknown devices
+    Detection of unauthorized systems
+    Network segmentation reviews
+    Security monitoring
+    Network administration
 
-Network asset inventory
-Identification of unknown devices
-Detection of unauthorized systems
-Network segmentation reviews
-Security monitoring
-Network administration
-
-# 5.11 Conclusion
+# 4.9 Conclusion
 
 The Zenmap practical exercise was successfully completed. I installed Zenmap, identified the local IP address and subnet, configured and performed a Ping Scan, discovered live hosts, reviewed IP and MAC address information, and generated a network topology.
 
