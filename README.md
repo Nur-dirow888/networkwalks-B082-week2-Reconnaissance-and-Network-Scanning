@@ -1,5 +1,4 @@
 # PENETRATION TESTING REPORT
-
 ## Reconnaissance and Network Scanning
 W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
 
