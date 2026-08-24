@@ -194,16 +194,16 @@ Evidence
 
 ---
 
-# 5.3 Live Host Discovery
+# 4.4 Live Host and IP Addresess Information Discovery
 
-The Ping Scan was executed to identify active hosts within the authorized local network.
+The Ping Scan was executed to identify active hosts within my local network.
 
 Evidence
 
 ![Zenmap live hosts](nenmap/03.zenmap-live-hosts.PNG)
 
 Discovered Hosts
-|No.	|IP Address	|Status|
+|No.	|IP Address|Status|
 |---|---|---|
 |1	|10.10.6.1|	Up|
 |2	|10.10.6.3|	Up|
@@ -211,22 +211,10 @@ Discovered Hosts
 |4	|10.10.6.41|	Up|
 |5	|10.10.6.46|	Up|
 
-Total Live Hosts
+Total Live Hosts: **5 hosts**
+---
 
-[NUMBER OF LIVE HOSTS]
-
-# 5.5 IP Address Information
-
-The scan results were reviewed to identify the IP addresses of the discovered live hosts.
-
-No.	IP Address	Status
-1	[IP ADDRESS]	Up
-2	[IP ADDRESS]	Up
-3	[IP ADDRESS]	Up
-4	[IP ADDRESS]	Up
-5	[IP ADDRESS]	Up
-
-# 5.6 MAC Address Information
+# 4.5 MAC Address Information
 
 MAC address information was reviewed for the discovered hosts where available.
 
