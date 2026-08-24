@@ -1,4 +1,4 @@
-# Networkwalks Cybersecurity Internship – Week 2 Project
+# PENETRATION TESTING REPORT
 
 ## Reconnaissance and Network Scanning
 
