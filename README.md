@@ -187,6 +187,7 @@ Scan Configuration:
 |Scan Type|	Ping Scan |
 |Target| [YOUR LOCAL SUBNET] |
 |Purpose|	Live Host Discovery |
+
 Evidence
 ![Maltego Final Results](nenmap/02.zenmap-configuration-pingscan.PNG)
 
