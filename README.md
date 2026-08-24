@@ -11,9 +11,14 @@ W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
 **Client/Target:** Networkwalks and my own local LAN network
 ---
 
-# 1. Liability Disclaimer
+# 1. Liability Disclaimer ⚠️
 
-I have performed these activities only on the systems & devices where I had secured written permission or the devices/systems that I own myself. All these materials are for education and research purpose only. Do not use anything from here to break the law. The instructor, the authors and Networkwalks are not responsible for what you do with this knowledge. Every action you take is your own responsibility. Misuse can lead to criminal charges, heavy fines, loss of your job and a permanent record. In most countries unauthorised access is a crime even when nothing is damaged.
+I have performed these activities only on systems and devices for which I had secured written permission, or on systems and devices that I personally own.
+All materials presented in this project are intended **for educational and research purposes only**.
+Do not use any information or techniques presented here to violate the law or gain unauthorized access to systems, networks, or devices.
+The instructor, authors, and Networkwalks are not responsible for any misuse of the information provided. **Every action you take is your own responsibility.**
+Misuse of cybersecurity knowledge may result in **criminal charges, significant fines, loss of employment, and a permanent criminal record**.
+In most countries, **unauthorized access to computer systems or networks is a criminal offense, even when no damage is caused**.
 ---
 
 # 1. Introduction
