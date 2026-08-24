@@ -2,12 +2,16 @@
 ## Reconnaissance and Network Scanning
 W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
 
-**Pentester Name:** Nur Dirow Afrah  
+**Pentester Name:** Nur Dirow Afrah
+
 **Program/Batch:** B082-Networkwalks
+
 **Date:** 24August 2026
+
 **Project Modules:**  
 -  Footprinting with Maltego
 -  Network Scanning with Zenmap
+  
 **Client/Target:** Networkwalks and my own local LAN network
 ---
 
