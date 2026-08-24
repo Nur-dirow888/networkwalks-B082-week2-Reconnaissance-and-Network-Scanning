@@ -174,7 +174,7 @@ In this exercise, Zenmap was used to identify live hosts within my authorized lo
 # 5.2 Identifying the Local IP Address and Subnet
 
 The Windows `ipconfig` command was used to identify the local network configuration as shown bellow:
-![Maltego Final Results](nenmap/01.local-ip-and-subnet.PNG)
+![NMAP local IP and subnet](nenmap/01.local-ip-and-subnet.PNG)
 
 ---
 
@@ -190,7 +190,7 @@ Scan Configuration:
 
 Evidence
 
-![Maltego Final Results](nenmap/02.zenmap-configuration-pingscan.PNG)
+![NMAP Configuration](nenmap/02.zenmap-configuration-pingscan.PNG)
 
 ---
 
@@ -221,7 +221,7 @@ After completing the network discovery scan, the network topology was generated 
 
 Topology
 
-![Maltego Final Results](NMAP-TOPOLOGY-1.jpg)
+![NMAP Topology](NMAP-TOPOLOGY-1.jpg)
 
 
 # 5.6 Zenmap Scan Results
